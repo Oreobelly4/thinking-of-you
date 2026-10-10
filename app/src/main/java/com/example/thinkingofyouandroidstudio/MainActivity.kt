@@ -264,9 +264,15 @@ fun RecipientScreenContent(
                         Text(
                             text = "✦ ✦",
                             fontSize = 22.sp,
-                            color = Color(0xFFFF3B5C),
+                            color = Color(0xFFB8A2E6),
                             modifier = Modifier
-                                .graphicsLayer(alpha = alpha, scaleX = scale, scaleY = scale)
+                                .graphicsLayer(
+                                    alpha = alpha,
+                                    scaleX = scale,
+                                    scaleY = scale
+                                )
+
+
                         )
                     }
                 }
@@ -276,7 +282,7 @@ fun RecipientScreenContent(
 
             Text(
                 text = bodyText,
-                color = Color(0xFF5C4D46),
+                color = Color(0xFF663399),
                 fontSize = 13.sp,
                 lineHeight = 18.sp
             )
